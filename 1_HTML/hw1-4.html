@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form>
+        <label for="username">USERNAME:</label>
+        <input type="text" id="username" name="username" placeholder="아이디를 입력해 주세요."><br><br>
+
+        <label for="password">PWD:</label>
+        <input type="password" id="password" name="password">
+        <button type="submit">로그인</button><br><br>
+    </form>
+
+    <script>
+        // "USERNAME" 글자 클릭 시 아이디 입력란으로 포커싱
+        document.querySelector('label[for="username"]').addEventListener('click', function() {
+            document.getElementById('username').focus();
+        });
+
+        // "PWD" 글자 클릭 시 비밀번호 입력란으로 포커싱
+        document.querySelector('label[for="password"]').addEventListener('click', function() {
+            document.getElementById('password').focus();
+        });
+    </script>
+</body>
+</html>
