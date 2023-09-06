@@ -1,0 +1,19 @@
+.board {
+    border: 1px solid black;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.board-each {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+}
+
+.black{
+    background-color: black;
+}
