@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            border: 1px solid black;
+            width: 500px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        div > div:first-child {
+            display: flex;
+            align-items: center;
+        }
+        
+        body img {
+            margin: 15px;
+            width: 30%;
+            height: 35%;
+        }
+
+        h2 {
+            margin: 20px;
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+    <div>
+        <img src="profile.jpg" alt="Profile Image">
+        <h2>Company Name</h2>
+    </div>
+    <div>
+        <div>
+        <h3>한글 이름</h3>
+        <h4>English Name</h4>
+        </div>
+        <div>
+        <p>Phone Number</p>
+        <p>Email</p>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <p>description</p>
+    </div>
+    </div>
+</body>
+</html>
